@@ -1,0 +1,25 @@
+.nav {
+    /* width: fit-content; */
+    /* height: fit-content; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 3em;
+    /* margin-bottom: 3em; */
+    /* background-color: aqua; */
+    padding: 1em;
+
+}
+
+.button {
+    border: 0px;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid black;
+
+}
+
+.input {
+    border: 0px;
+    border-radius: 10px 0px 0px 10px;
+    border: 2px solid black;
+}

@@ -1,0 +1,80 @@
+.contenedor {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.5rem;
+    font-size: 10px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+
+.contenedorCards {
+    width: fit-content;
+    padding: 1em;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    /* background-color: aqua; */
+}
+
+.contenedorImg {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.closeButton {
+    border: 0px;
+    color: black;
+    border: 0.5px solid black;
+    width: fit-content;
+    background-color: yellow;
+    height: fit-content;
+    border-radius: 15rem;
+    font-size: 10px;
+}
+
+  
+  /* .name {
+    position: absolute;
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* z-index: 1;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center; */
+  /* } */ 
+  .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0.5rem;
+    z-index: 1;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: yellow;
+    padding: 0.3rem;
+  }
+
+  .imageContainer {
+    position: relative;
+  }
+
+  .speciesAndGender {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.2rem;
+    /* align-items: center; */
+    background-color: rgb(206, 190, 190);
+  }
